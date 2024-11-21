@@ -1,6 +1,6 @@
 class ChatGPTService {
   async fetchAnswer(question) {
-    const apiKey = "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";
+    const apiKey = "Your_Own_OpenAI_API";
     const url = "https://api.openai.com/v1/chat/completions";
 
     const response = await fetch(url, {
