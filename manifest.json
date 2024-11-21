@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Brave",
+  "version": "1.0",
+  "description": "Take screenshots and interact with ChatGPT.",
+"permissions": [
+  "commands",
+  "contextMenus",
+  "activeTab",
+  "storage",
+  "notifications",
+  "scripting",
+  "tabs"
+],
+  "host_permissions": [
+    "https://api.openai.com/"
+  ],
+  
+"background": {
+    "service_worker": "background.js"
+}
+,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/icon.png",
+      "48": "/images/icon.png",
+      "128": "/images/icon.png"
+    }
+  },
+  "icons": {
+    "16": "/images/icon.png",
+    "48": "/images/icon.png",
+    "128": "/images/icon.png"
+  },
+  "commands": {
+    "trigger-chatgpt-search": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Z",
+        "mac": "Command+Shift+Z"
+      },
+      "description": "Search selected text with ChatGPT"
+    }
+  }
+  
+}
