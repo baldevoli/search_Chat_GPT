@@ -1,0 +1,78 @@
+body {
+    min-width: 300px;
+    margin: 0;
+    background-color: #edf0f4;
+    font-size: 15px;
+    border: 5px solid #244f60;
+    width: 350px;
+    height: 430px;
+    position: relative;
+}
+
+.icon-head {
+    width: 32px;
+    height: 32px;
+}
+
+.loading-text {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: #244f60;
+}
+
+.container {
+    max-width: 350px !important;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.btn-app {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #12d475;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-blue {
+    color: #244f60;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
