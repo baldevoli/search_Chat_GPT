@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Brave",
   "version": "1.0",
-  "description": "Take screenshots and interact with ChatGPT.",
+  "description": "Search The selected Text with ChatGPT.",
 "permissions": [
   "commands",
   "contextMenus",
