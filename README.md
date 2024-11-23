@@ -2,4 +2,4 @@
 
 This extension can search the selected text form the chatgpt and give the answer on notification.
 I am still working on it but for now it works, normally. You need to buy api key form the OpenAI, and paste it into the popup.js and background.js.
-The place to paste the api key is YOUR_OWN_OPENAI_API you have to paste on 2 places.
+The place to paste the api key is YOUR_OWN_OPENAI_API.
